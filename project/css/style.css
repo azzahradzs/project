@@ -1,0 +1,200 @@
+.welcome-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/kitty.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+.marquee {
+    overflow: hidden; 
+    white-space: nowrap; 
+    width: 50%; 
+    font-size: 3rem; 
+    font-family: 'Roboto Slab', serif; 
+    font-weight: bold; 
+    color: #ffffff; 
+    animation: scroll 12s linear infinite; 
+    text-align: center; 
+    background-color: #ff69b4; 
+    padding: 10px 0; 
+    border-radius: 10px; 
+    position: relative; 
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(50%); /* Mulai dari kanan */
+    }
+    100% {
+        transform: translateX(-50%); /* Bergerak ke kiri */
+    }
+}
+
+/* Tombol untuk Login */
+.welcome-container a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff69b4; 
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, background-color 0.3s;
+    font-size: 1.2rem;
+}
+
+.welcome-container a:hover {
+    background-color: #ff1493; 
+    transform: scale(1.05);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(223, 71, 96);  
+    font-weight: bold;  
+    font-size: 36px;
+  }
+  
+  h3, p {
+    text-align: center;
+  }
+  
+  .login-container {
+    height: 100vh;
+    background-image: url('../images/kitty.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  .login-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 8px;
+    width: 800px;
+    text-align: center;
+  }
+  
+  .login-form input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #da4088;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    width: 84%;
+    padding: 10px;
+    background-color: pink;
+    border: 1px solid #da4088;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #ff66b2;
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .profile-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 1000px;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover;  
+}
+
+.profile-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 1000px;
+  }
+
+  .profile-card h2 {
+    color: #ff66b2;
+  }
+  
+  .profile-container {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+  }  
+
+.section-title {
+    color: #ff66b2; 
+    font-weight: bold; 
+  }
+
+.marquee-contact {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #f8f8f8; 
+    padding: 10px 0; 
+  }
+  
+  .marquee-contact p {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-contact 12s linear infinite; 
+    font-size: 20px;
+    color: #ff66b2; 
+    font-weight: bold;
+  }
+  
+  @keyframes scroll-contact {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  body {
+    background-image: url('../images/kitty.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+
+  
